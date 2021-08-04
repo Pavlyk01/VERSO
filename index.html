@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <div class="wrappermain">
         <div class="container">
             <header class="header" id="header">
@@ -45,45 +46,50 @@
 
                 </nav>
                 <a href="#" class="header__link">Buy $VSO</a>
-            </header>
-            <section class="home">
-                <h1 class="home__title">How to buy VSO</h1>
-                <p class="home__subtitle">Verso(VSO) is currently available on <a href="#" class="link">Gate.io</a> as well as on several decentralized exchanges(DEX) connected to the Avalanche blockchain.</p>
-                <div class="home__inner">
-                    <div class="home__box-1">
-                        <h3 class="home__box-title">CEX Listings</h3>
-                        <img src="images/home-list-img/1.jpg" alt="" class="home__box-img">
-                    </div>
-                    <div class="home__box-2">
-                        <h3 class="home__box-title">CEX Listings</h3>
-                        <img src="images/home-list-img/1.jpg" alt="" class="home__box-img">
-                        <img src="images/home-list-img/1.jpg" alt="" class="home__box-img">
-                        <img src="images/home-list-img/1.jpg" alt="" class="home__box-img">
-                    </div>
-                </div>
-            </section>
 
-            <section class="metamask">
-                <div class="container">
-                    <div class="metamask__title">How to add VSO to Metamask</div>
-                    <div class="metamask__inner">
-                        <div class="metamask__box-1" data-aos="fade-down-right" data-aos-duration="1500">
-                            <img src="images/add/1.png" alt="" class="metamask__box-img">
-                            <p class="metamask__box-text one">
-                                First, make sure your Metamask <br> is connected with Avalanche <br> Network. If you don’t see Avalache <br> on the list of options, <a class="link" href="#">click here.</a>
-                            </p>
-                        </div>
-                        <div class="metamask__box-2" data-aos="fade-up-left" data-aos-duration="1500">
-                            <img src="images/add/2.png" alt="" class="metamask__box-img">
-                            <p class="metamask__box-text too">
-                                Once you’ve connected to <br> Avalache, choose your account <br> and click “Add Token”. Enter the <br> VSO contract address found <a class="link" href="#">here.</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
 
         </div>
+        </header>
+
+        <section class="home">
+            <h1 class="home__title">How to buy VSO</h1>
+            <p class="home__subtitle">Verso(VSO) is currently available on <a href="#" class="link">Gate.io</a> as well as on several decentralized exchanges(DEX) connected to the Avalanche blockchain.</p>
+            <div class="home__inner">
+                <div class="home__box-1">
+                    <h3 class="home__box-title">CEX Listings</h3>
+                    <img src="images/home-list-img/4.jpg" alt="" class="home__box-img">
+                </div>
+                <div class="home__box-2">
+                    <h3 class="home__box-title">CEX Listings</h3>
+                    <img src="images/home-list-img/1.jpg" alt="" class="home__box-img">
+                    <img src="images/home-list-img/2.jpg" alt="" class="home__box-img">
+                    <img src="images/home-list-img/3.jpg" alt="" class="home__box-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="metamask">
+            <div class="container">
+                <div class="metamask__title">How to add VSO to Metamask</div>
+                <div class="metamask__inner">
+                    <div class="metamask__box-1" data-aos="fade-down-right" data-aos-duration="1500">
+                        <img src="images/add/1.png" alt="" class="metamask__box-img">
+                        <p class="metamask__box-text one">
+                            First, make sure your Metamask <br> is connected with Avalanche <br> Network. If you don’t see Avalache <br> on the list of options, <a class="link" href="#">click here.</a>
+                        </p>
+                    </div>
+                    <div class="metamask__box-2" data-aos="fade-up-left" data-aos-duration="1500">
+                        <img src="images/add/2.png" alt="" class="metamask__box-img">
+                        <p class="metamask__box-text too">
+                            Once you’ve connected to <br> Avalache, choose your account <br> and click “Add Token”. Enter the <br> VSO contract address found <a class="link" href="#">here.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
     </div>
 
     <section class="staking">
@@ -197,7 +203,17 @@
 
 
 
+    <script>
+        function addmenu() {
+            var element = document.getElementById("myDIV");
+            element.classList.remove("rightside-menu--close");
+        }
 
+        function removemenu() {
+            var element = document.getElementById("myDIV");
+            element.classList.add("rightside-menu--close");
+        }
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/main.min.js"></script>
 </body>
